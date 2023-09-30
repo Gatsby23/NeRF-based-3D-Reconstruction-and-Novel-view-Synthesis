@@ -1,23 +1,21 @@
-# NeRF-based-3D-Reconstruction-and-Novel-view-Synthesis
+# NeRF based 3D Reconstruction and Novel view Synthesis
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Issues](https://img.shields.io/github/issues/ayushgoel24/Stereo-Visual-Odometry.svg)](https://github.com/ayushgoel24/Stereo-Visual-Odometry/issues)
-[![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-orange.svg)](https://github.com/ayushgoel24/Stereo-Visual-Odometry)
+[![GitHub Issues](https://img.shields.io/github/issues/ayushgoel24/NeRF-based-3D-Reconstruction-and-Novel-view-Synthesis.svg)](https://github.com/ayushgoel24/NeRF-based-3D-Reconstruction-and-Novel-view-Synthesis/issues)
+[![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-orange.svg)](https://github.com/ayushgoel24/NeRF-based-3D-Reconstruction-and-Novel-view-Synthesis)
 
 
 This project provides an implementation of a Neural Radiance Field (NeRF) renderer using PyTorch. NeRF is a method for synthesizing novel views of complex scenes by directly optimizing a neural network to represent the scene's volumetric scene function.
 
 ## Table of Contents
 - [Overview](#overview)
-- [Key Concepts Used](#key-concepts-used)
-- [Edge Cases](#edge-cases)
-- [Scope of Improvements](#scope-of-improvements)
 - [Dependencies](#dependencies)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
+- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 ## Overview
 Neural Radiance Fields (NeRF) has emerged as a groundbreaking technique in the realm of 3D scene representation and rendering. By leveraging the power of neural networks, NeRF synthesizes novel views of intricate scenes without the need for traditional 3D modeling. This project offers a streamlined implementation of NeRF, aiming to provide users with the core functionalities of this technique without the overhead of more extensive frameworks. Written in C++, the codebase harnesses the capabilities of LibTorch, PyTorch's C++ API, ensuring efficient computations and leveraging automatic differentiation. Whether you're a researcher looking to experiment with NeRF or a developer aiming to integrate it into a larger system, this project serves as an ideal starting point.
